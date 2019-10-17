@@ -1,22 +1,86 @@
-.App {
-  text-align: center;
+body, html {
+    height: 100%;
+    font-family: 'Noto Serif JP', serif;
 }
 
-.App-logo {
-  height: 40vmin;
+.background {
+    background-image: url('./background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center-card {
+    position: fixed;
+    width: 50%;
+    left: 25%;
+    top: 25%;
+    background-color: white;
+    padding: 80px 50px 50px 50px;
+    text-align: center;
+  
+
 }
 
-.App-link {
-  color: #09d3ac;
+.countdown {
+    padding-bottom: 0.3rem !important;
+    text-transform: capitalize;
 }
+
+.countdown-section {
+    padding: 3rem 4rem;
+}
+
+.adam-image img {
+    position: fixed;
+    width: 50%;
+    left: 65%;
+    top: 65%;
+    width: 15%;
+}
+
+.rsvp-button button {
+    font-family: 'Noto Serif JP', serif;
+    color: #d5a112;
+    border-color: #d5a112;
+    font-size: 14px;
+    padding: 10px 30px;
+    letter-spacing: 4px;
+    margin-bottom: -10px;
+}
+
+.rsvp-button button:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #d5a112;
+}
+
+.wedding-date {
+    font-family: 'Noto Serif JP', serif;
+    color: #d5a112;
+    letter-spacing: 5px;
+    font-size: 14px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+}
+
+.number-countdown {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 35px;
+    letter-spacing: 6px;
+}
+
+.value-countdown {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+.logo {
+    margin-top: -50px;
+
+}
+
