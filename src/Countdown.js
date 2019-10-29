@@ -43,16 +43,18 @@ class Countdown extends React.Component {
     render() {
         return (
             <div>
-            <div className="ui grid">
-                <div className="four wide column countdown number-countdown">{this.state.days}</div>
-                <div className="four wide column countdown number-countdown">{this.state.hours}</div>
-                <div className="four wide column countdown number-countdown">{this.state.minutes}</div>
-                <div className="four wide column countdown number-countdown">{this.state.seconds}</div>
+                <div className="ui grid">
+                    <div className="four wide column countdown number-countdown">{this.state.days}</div>
+                    <div className="four wide column countdown number-countdown">{this.state.hours}</div>
+                    <div className="four wide column countdown number-countdown">{this.state.minutes}</div>
+                    <div className="four wide column countdown number-countdown">{this.state.seconds}</div>
+                </div>
+                <div className="ui grid">
                 <div className="four wide column countdown value-countdown ">DAYS</div>
-                <div className="four wide column countdown value-countdown">HOURS</div>
-                <div className="four wide column countdown value-countdown">MINS</div>
-                <div className="four wide column countdown value-countdown">SECS</div>
-            </div>
+                    <div className="four wide column countdown value-countdown">HOURS</div>
+                    <div className="four wide column countdown value-countdown">MINS</div>
+                    <div className="four wide column countdown value-countdown">SECS</div>
+                </div>
             </div>
             
         )
