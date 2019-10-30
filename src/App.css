@@ -9,7 +9,7 @@ body, html {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 100rem;
+    height: 50rem;
 }
 
 .center-card {
@@ -20,8 +20,6 @@ body, html {
     background-color: white;
     padding: 80px 50px 50px 50px;
     text-align: center;
-  
-
 }
 
 .countdown {
