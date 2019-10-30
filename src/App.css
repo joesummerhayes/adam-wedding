@@ -122,9 +122,9 @@ body, html {
         padding: 100px 30px 100px 30px;
     }
     .adam-image img {
-        left: 18%;
+        left: 28%;
         top: 55%;
-        width: 65%;
+        width: 45%;
     }
   }
   @media only screen and (max-width: 320px) {
