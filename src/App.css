@@ -9,7 +9,7 @@ body, html {
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
-    height: 50rem;
+    height: 100rem;
 }
 
 .center-card {
@@ -96,7 +96,7 @@ body, html {
 
   @media only screen and (max-width: 800px) {
     .countdown-section {
-        padding: 3rem 0rem;
+        padding: 2rem 0rem;
     }
     .value-countdown {
         letter-spacing: 3px;
@@ -133,7 +133,7 @@ body, html {
         padding-right: 0.2rem;
     }
     .center-card {
-        padding: 80px 20px 100px 20px;
+        padding: 65px 20px 100px;
     }
     .adam-image img {
         top: 60%;
