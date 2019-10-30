@@ -135,9 +135,6 @@ body, html {
     .center-card {
         padding: 65px 20px 100px;
     }
-    .adam-image img {
-        top: 60%;
-    }
   }
 
   @media only screen and (width: 375px) {
