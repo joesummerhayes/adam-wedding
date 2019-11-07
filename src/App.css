@@ -34,10 +34,9 @@ body, html {
 
 .adam-image img {
     position: fixed;
-    width: 50%;
     left: 65%;
-    top: 65%;
-    width: 15%;
+    top: 75%;
+    width: 12%;
 }
 
 .rsvp-button button {
